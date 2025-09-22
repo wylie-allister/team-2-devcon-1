@@ -55,6 +55,8 @@ public class CharacterController2D : MonoBehaviour
     private int animatorRunningSpeed;
     private int animatorJumpTrigger;
 
+    public GameObject characterTransform;
+    public LayerMask ground;
     public bool CanMove { get; set; }
 
     void Start()
@@ -112,6 +114,14 @@ public class CharacterController2D : MonoBehaviour
         // Jumping input
         if (!isJumping && keyboard.spaceKey.wasPressedThisFrame)
             jumpInput = true;
+
+        RaycastHit2D groundHit = Physics2D.Raycast(characterTransform.transform.position, Vector2.down, 0.3f, ground);
+
+        //RESETS COUNTER, DOES NOT COUNT FIRST JUMP. MUST FIX.
+        if (groundHit == true && Input.GetMouseButtonDown(1))
+        {
+            GameObject.Find("Sara Variant").GetComponent<PlayerAimWeapon>().shotCount = 0;
+        }
     }
 
     void FixedUpdate()
