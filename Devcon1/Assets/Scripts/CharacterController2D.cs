@@ -117,7 +117,7 @@ public class CharacterController2D : MonoBehaviour
 
         RaycastHit2D groundHit = Physics2D.Raycast(characterTransform.transform.position, Vector2.down, 0.3f, ground);
 
-        //RESETS COUNTER, DOES NOT COUNT FIRST JUMP. MUST FIX.
+        //Resets shotCount when right clicking
         if (groundHit == true && Input.GetMouseButtonDown(1))
         {
             GameObject.Find("Sara Variant").GetComponent<PlayerAimWeapon>().shotCount = 0;
@@ -199,6 +199,7 @@ public class CharacterController2D : MonoBehaviour
             // Play audio
             audioPlayer.PlayJump();
         }
+
 
         // Landed
         else if (isJumping && isFalling && groundType != GroundType.None)

@@ -6989,6 +6989,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Environment_Middle_TileGrid
       objectReference: {fileID: 0}
+    - target: {fileID: 9095763738489776931, guid: 7812ac37636d29b4aa6b0b80bdfecd92,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9095763738489776941, guid: 7812ac37636d29b4aa6b0b80bdfecd92,
         type: 3}
       propertyPath: m_RootOrder
@@ -10583,6 +10588,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: altar_b
       objectReference: {fileID: 0}
+    - target: {fileID: 827027829217216206, guid: cf105c35f94aaa9439582c5463ed295f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5162504458256914560, guid: cf105c35f94aaa9439582c5463ed295f,
         type: 3}
       propertyPath: m_RootOrder
@@ -10642,6 +10652,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Environment_Middle_Crypt
+      objectReference: {fileID: 0}
+    - target: {fileID: 5162504458256914561, guid: cf105c35f94aaa9439582c5463ed295f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800889228316220191, guid: cf105c35f94aaa9439582c5463ed295f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7264351501154974320, guid: cf105c35f94aaa9439582c5463ed295f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11725,6 +11750,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Environment_Middle_Exterior
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331163739196897355, guid: 64fb001c79f9ab640849965312f69230,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
