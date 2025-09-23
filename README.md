@@ -1,0 +1,1 @@
+This game prototype is a 2D platformer made in Unity, intended to test a bullet propulsion mechanic. The player may shoot a weapon, which creates knockback, to assist / replace jumping. This prototype is intended for educational purposes.
